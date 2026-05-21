@@ -1,0 +1,120 @@
+[
+  {
+    "category": "Webseiten",
+    "services": [
+      {
+        "id": "basic-website",
+        "name": "Basic Website (Onepager)",
+        "price": 199,
+        "unit": "eur-ab",
+        "description": "Ein moderner Onepager mit responsivem Layout und allen wichtigen Informationen auf einer Seite. Ideal für Freelancer, kleine Unternehmen oder als digitale Visitenkarte.",
+        "icon": "📄",
+        "demo": "/info/onepager/"
+      },
+      {
+        "id": "standard-website",
+        "name": "Standard Website (2–3 Seiten)",
+        "price": 399,
+        "unit": "eur-ab",
+        "description": "Mehrseitige Website mit Startseite, Unterseiten, SEO-Basics, sauberem Layout und Kontaktmöglichkeiten. Optimal für kleine Betriebe oder Selbstständige.",
+        "icon": "🖥️",
+        "demo": ""
+      },
+      {
+        "id": "pro-website",
+        "name": "Pro Website (ab 4 Seiten)",
+        "price": 499,
+        "unit": "eur-ab",
+        "description": "Professionelle Website ab 4 Unterseiten mit erweiterter Struktur, Social-Media-Integration und moderner Optik.",
+        "icon": "🏢",
+        "demo": "https://crazyfamily.info"
+      },
+      {
+        "id": "extended-website",
+        "name": "Erweiterte Website / Spezialprojekte",
+        "price": 1449,
+        "unit": "eur-ab",
+        "description": "Für komplexe Projekte wie Mitgliederbereiche, Tools, Buchungssysteme oder individuelle Funktionen. Preis richtet sich nach Aufwand.",
+        "icon": "⚙️",
+        "demo": ""
+      }
+    ]
+  },
+  {
+    "category": "Shop Integration",
+    "services": [
+      {
+        "id": "shop-integration",
+        "name": "Shop Integration",
+        "price": 149,
+        "unit": "eur-ab",
+        "description": "Integration eines Onlineshops – unabhängig vom Anbieter (z. B. Shopify, Printify, Spreadshop). Inklusive SEO-Basics, Produktstruktur und Einbindung auf der Website.",
+        "icon": "🛍️",
+        "demo": "/pages/shop.html"
+      }
+    ]
+  },
+  {
+    "category": "Blogsystem",
+    "services": [
+      {
+        "id": "blog-system",
+        "name": "Dynamischer Blog",
+        "price": 199,
+        "unit": "eur-ab",
+        "description": "Leichtgewichtiges Blogsystem wie auf nils-digital.de. Kategorien, Suche, Pagination, optimiertes Template und Mobile-first.",
+        "icon": "✍️"
+      }
+    ]
+  },
+  {
+    "category": "Hosting & Pflege",
+    "services": [
+      {
+        "id": "hosting-basic",
+        "name": "Hosting – Basic",
+        "price": 29,
+        "unit": "eur-pro-monat",
+        "description": "Einrichtung & Verwaltung von Domain und Hosting (z. B. STRATO) im Auftrag des Kunden. Inklusive SSL, technischer Grundbetreuung, Backup-Check und kleinen Änderungen (Text/Bild).",
+        "icon": "🌐"
+      },
+      {
+        "id": "hosting-care",
+        "name": "Hosting – Care",
+        "price": 49,
+        "unit": "eur-pro-monat",
+        "description": "Erweiterte Betreuung mit regelmäßiger Pflege, kleinen Designanpassungen, SEO-Feinschliff und bevorzugter Bearbeitung.",
+        "icon": "🛠️"
+      },
+      {
+        "id": "hosting-premium",
+        "name": "Hosting – Rundum-sorglos",
+        "price": 99,
+        "unit": "eur-pro-monat",
+        "description": "Komplettpaket inklusive laufender Inhaltsanpassungen, Blogpflege, kleinen Erweiterungen, Notfallhilfe und persönlicher Beratung.",
+        "icon": "🧠"
+      }
+    ]
+  },
+  {
+    "category": "Service & Support",
+    "services": [
+      {
+        "id": "update-service",
+        "name": "Updates & kleine Änderungen",
+        "price": 49,
+        "unit": "eur-pro-stunde",
+        "description": "Kleine Änderungen, Textupdates, Bildwechsel oder technische Nachbesserungen.",
+        "icon": "🔧"
+      },
+      {
+        "id": "urgent-service",
+        "name": "Dringende Änderungen (24h)",
+        "price": 79,
+        "unit": "eur-pro-stunde",
+        "description": "Für dringende Änderungen innerhalb von 24 Stunden.",
+        "icon": "⏱️"
+      }
+    ]
+  }
+]

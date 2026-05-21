@@ -1,0 +1,53 @@
+# ================================================
+# Zugangsdaten & sensible Konfiguration
+# ================================================
+backend/config.php
+.env
+.env.*
+.env.local
+.env.production
+
+# ================================================
+# Betriebssystem
+# ================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+
+# ================================================
+# Editoren & IDEs
+# ================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ================================================
+# Logs & temporäre Dateien
+# ================================================
+*.log
+error_log
+npm-debug.log*
+
+# ================================================
+# Node (falls spaeter genutzt)
+# ================================================
+node_modules/
+package-lock.json
+yarn.lock
+
+# ================================================
+# Build-Outputs (falls spaeter genutzt)
+# ================================================
+dist/
+build/
+.cache/

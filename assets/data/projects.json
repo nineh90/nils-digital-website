@@ -1,0 +1,46 @@
+[
+  {
+    "id": "lerndex",
+    "title": "Lerndex",
+    "type": "App / Lernsoftware",
+    "status": "beta",
+    "description": "Sichere KI-Lernumgebung für Kinder von 6–16 Jahren. Mit pädagogisch geführtem KI-Tutor, XP-System, Eltern-Dashboard und konsequentem Kinderschutz. Entwickelt von Nils & Kevin – aktuell in der Android Beta.",
+    "image": "../assets/images/lerndex/lerndex_logo.png",
+    "tags": ["Flutter", "KI", "Android", "iOS"],
+    "link": "https://lerndex.de",
+    "internal": false
+  },
+  {
+    "id": "crazyfamily",
+    "title": "CRAZYFAMILY",
+    "type": "Kundenprojekt",
+    "status": "live",
+    "description": "Community-Webseite für Streamer Kevin & Alex – inkl. Struktur, Design, Sounds, Highlights, Mod-Bereich und Merch-Anbindung. Lebendig, laut und authentisch.",
+    "image": "../assets/images/shop/crazy_family_logo.png",
+    "tags": ["Webdesign", "Community", "Merch"],
+    "link": "https://crazyfamily.info",
+    "internal": false
+  },
+  {
+    "id": "sunnycam",
+    "title": "SunnyCam",
+    "type": "Herzensprojekt",
+    "status": "live",
+    "description": "Sunny ist nicht nur Hündin – sie ist Inspirationsquelle, Content-Star und Namenspatin. SunnyCam zeigt die Welt auf vier Pfoten: Videos, Geschichten und echte Momente.",
+    "image": "../assets/images/sunny.jpg",
+    "tags": ["Content", "TikTok", "Social Media"],
+    "link": "sunnycam.html",
+    "internal": true
+  },
+  {
+    "id": "handmade-by-fischer",
+    "title": "Handmade by Fischer",
+    "type": "Kundenprojekt",
+    "status": "live",
+    "description": "Mobile Optimierung der bestehenden Webseite – Header, Navigation und Nutzerführung für Smartphones überarbeitet. Fokus auf Usability, Klarheit und ein stimmiges Gesamtbild.",
+    "image": "../assets/images/blog/handmade-by-fischer-logo.png",
+    "tags": ["Webdesign", "Mobile", "UX"],
+    "link": "https://www.handmade-by-fischer.de/",
+    "internal": false
+  }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog – nils-digital</title>
+  <!-- SEO -->
+  <meta name="description" content="Der Blog von nils-digital – Gedanken, Updates & Einblicke hinter die Kulissen. Persönlich, ehrlich & kreativ – über Webentwicklung, Projekte & Sunny 🐾.">
+  <meta name="keywords" content="Blog, nils digital, Webentwicklung, Projekte, SunnyCam, Programmierung, Nils Nehring, Kreativität, Portfolio, Erfahrungen, Inspiration">
+  <meta name="author" content="Nils Nehring">
+  <link rel="canonical" href="https://nils-digital.de/pages/blog.html">
+  <!--Social Media / Open Graph -->
+  <meta property="og:title" content="Blog – nils-digital">
+  <meta property="og:description" content="Neuigkeiten, Ideen und ehrliche Gedanken von Nils – über Technik, Kreativität & das Leben mit Sunny 🐾.">
+  <meta property="og:image" content="https://nils-digital.de/assets/images/sunny-nils.jpg">
+  <meta property="og:url" content="https://nils-digital.de/pages/blog.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="de_DE">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog – nils-digital">
+  <meta name="twitter:description" content="Der persönliche Blog von Nils: Webentwicklung, Leben & Sunny 🐾. Authentisch & inspirierend.">
+  <meta name="twitter:image" content="https://nils-digital.de/assets/images/sunny-nils.jpg">
+  <!-- Styles & Fonts -->
+  <link rel="stylesheet" href="../css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <!-- Favicon & App Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0d1117">
+  <!-- Sicherheit & Indexierung -->
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+  <div id="header"></div>
+  <main>
+    <section class="page-hero">
+      <h1>Der <span>Blog</span></h1>
+      <p>Gedanken, Updates und Einblicke aus unserer Arbeit – Webentwicklung, KI-Automatisierung und digitale Lösungen.</p>
+    </section>
+
+    <section class="content-section">
+      <input type="text" id="blog-search" placeholder="Beiträge durchsuchen…" class="blog-search">
+      <div id="blog-categories"></div>
+      <div id="blog-container" class="blog-list"></div>
+      <div id="pagination" class="pagination"></div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="blog-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal" class="close-btn">&times;</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-date" class="modal-date"></p>
+      <div id="modal-text"></div>
+    </div>
+  </div>
+
+  <div id="footer"></div>
+
+  <script src="../js/include.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/blog.js"></script>
+  <!-- <script src="../js/season-effects.js"></script> -->
+</body>
+</html>
