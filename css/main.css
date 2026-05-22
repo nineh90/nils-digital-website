@@ -1859,62 +1859,87 @@ h3.post-heading { font-size: 1.2rem; color: var(--text-muted); }
 .service-category-grid {
   display: grid;
   gap: 1.5rem;
-  margin-bottom: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-bottom: 3rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 }
 
 .service-card {
-  background: var(--bg-secondary);
-  padding: 1.5rem;
-  border-radius: 14px;
-  border: 1px solid rgba(0, 188, 212, 0.25);
-  text-align: center;
-  box-shadow: 0 0 14px rgba(0,188,212,0.15);
-  transition: 0.3s ease;
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  padding: 2rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .service-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 0 22px rgba(0,188,212,0.35);
+  border-color: rgba(0, 188, 212, 0.35);
+  box-shadow: 0 8px 32px rgba(0, 188, 212, 0.1);
+}
+
+.service-card:hover::before {
+  opacity: 1;
 }
 
 .service-icon {
-  font-size: 2.2rem;
-  margin-bottom: 0.6rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.service-card h3 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.2rem;
+  margin: 0 0 0.4rem;
+  color: var(--text-main);
+  line-height: 1.25;
 }
 
 .service-price {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.05rem;
+  font-weight: 600;
   color: var(--accent);
-  background: rgba(0,188,212,0.15);
-  padding: 0.4rem 0.8rem;
-  border-radius: 8px;
-  margin: 0.5rem auto 1rem;
-  display: inline-block;
+  margin: 0 0 1rem;
 }
 
 .service-desc {
-  font-size: 0.95rem;
+  font-size: 0.87rem;
   color: var(--text-muted);
-  line-height: 1.5;
+  line-height: 1.65;
+  flex: 1;
+  margin: 0 0 1.4rem;
 }
 
 .service-btn {
   display: block;
-  margin: 1rem auto 0 auto;
   padding: 0.7rem 1.2rem;
   background: var(--accent);
   color: var(--bg-main);
   border-radius: 8px;
   text-align: center;
   font-weight: 600;
-  transition: 0.3s ease;
+  font-size: 0.85rem;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  margin-top: auto;
 }
 
 .service-btn:hover {
   background: var(--accent-hover);
-  box-shadow: 0 0 10px var(--accent);
+  box-shadow: 0 0 12px rgba(0, 188, 212, 0.4);
 }
 
 

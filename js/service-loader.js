@@ -28,21 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
         priceText = `${s.price}€/Std.`;
       }
 
-      // Demo optional
-      const demoBtn = s.demo
-        ? `<a href="${s.demo}" class="btn-sm" target="_blank" rel="noopener noreferrer">Demo ansehen</a>`
-        : "";
-
       html += `
         <div class="service-card">
           <div class="service-icon">${s.icon}</div>
           <h3>${s.name}</h3>
           <p class="service-price">${priceText}</p>
           <p class="service-desc">${s.description}</p>
-
-          ${demoBtn}
-
-          <a href="kontakt.html?service=${encodeURIComponent(s.name)}" 
+          <a href="kontakt.html?service=${encodeURIComponent(s.name)}"
             class="btn-sm service-btn">
             Angebot anfragen
           </a>
