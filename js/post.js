@@ -204,7 +204,7 @@ function setSeoDynamic(post) {
     "author": {
       "@type": "Person",
       "name":  "Nils Nehring",
-      "url":   "https://nils-digital.de/pages/ueber-mich.html"
+      "url":   "https://nils-digital.de/pages/ueber-uns.html"
     },
     "publisher": {
       "@type": "Organization",
