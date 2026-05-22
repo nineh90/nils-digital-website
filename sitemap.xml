@@ -4,75 +4,75 @@
   <!-- Startseite -->
   <url>
     <loc>https://nils-digital.de/</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Kernseiten -->
   <url>
-    <loc>https://nils-digital.de/pages/webdesign-leistung.html</loc>
+    <loc>https://nils-digital.de/pages/webdesign-leistung.php</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://nils-digital.de/pages/projekte.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://nils-digital.de/pages/projekte.php</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nils-digital.de/pages/blog.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://nils-digital.de/pages/blog.php</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Conversion-Seiten -->
   <url>
-    <loc>https://nils-digital.de/pages/reservierung.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://nils-digital.de/pages/reservierung.php</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nils-digital.de/pages/projektfragebogen.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://nils-digital.de/pages/projektfragebogen.php</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nils-digital.de/pages/kontakt.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://nils-digital.de/pages/kontakt.php</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Über-Seiten -->
   <url>
-    <loc>https://nils-digital.de/pages/ueber-uns.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://nils-digital.de/pages/ueber-uns.php</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nils-digital.de/pages/team.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://nils-digital.de/pages/team.php</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Pflichtseiten -->
   <url>
-    <loc>https://nils-digital.de/pages/impressum.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://nils-digital.de/pages/impressum.php</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://nils-digital.de/pages/datenschutz.html</loc>
-    <lastmod>2026-05-21</lastmod>
+    <loc>https://nils-digital.de/pages/datenschutz.php</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>

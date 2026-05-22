@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /pages/sunnycam.html
-Disallow: /pages/shop.html
+Disallow: /pages/sunnycam.php
+Disallow: /pages/shop.php
 
 Sitemap: https://nils-digital.de/sitemap.xml
